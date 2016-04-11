@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Patterns | A Design Practice</title>
+    <link rel="canonical" href="http://wearepatterns.com">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="tachyons.css">
+    <link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+    
+    <script src="https://use.typekit.net/ezg8bsf.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+
+    <style>
+        body {
+            color: rgb(51, 63, 72);
+            background-color: rgba(230, 238, 236, 0.7);
+            hyphens: manual;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .cutive {
+            font-family: 'Cutive Mono', 'Courier New', monospace;
+        }
+        
+        .garamond {
+            font-family: 'garamond-premier-pro-display', Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+            font-feature-settings: "dlig";
+            font-variant-ligatures: discretionary-ligatures;
+        }
+        
+        @media screen and (min-width: 100em) {
+            .four {
+                font-size: 4rem;
+            }
+        }
+        
+        #nolig {
+            font-feature-settings: "dlig" 0;
+            font-variant-ligatures: none;
+        }
+        
+        a {
+            color: rgb(40, 87, 128);
+        }
+        
+        a:hover {
+            color: rgb(72, 169, 197);
+        }
+        
+        .animated {
+            -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+        }
+        
+        @-webkit-keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+        }
+        
+        .date {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .date:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 80%;
+            height: 8%;
+            width: 100%;
+            /*background: hsla(226, 65%, 35%, 0.2);*/
+            background: url(../images/dots.svg) repeat;
+            background-size: 4px 4px;
+            text-decoration: none;
+        }
+        
+        @media screen and (min-width: 48em) {
+            .date:after {
+                top: 90%;
+                height: 20%;
+            }
+        }
+    </style>
+</head>
+
+<body class="animated fadeIn">
+    <header class="mh3 mh4-ns mh5-l mt4 mt5-l">
+        <p class="f6 lh-title cutive">
+            Patterns -<br>
+            <a class="mr1 mr3-ns link" href="wearepatterns.com/about.html"><span class="dn di-ns">1.</span> About</a> <span class="black-20">/</span>
+            <a class="mh1 mh3-ns link" style="color: rgb(72, 169, 197);" href="wearepatterns.com/principles.html"><span class="dn di-ns">2.</span> Principles</a> <span class="black-20">/</span>
+            <a class="ml1 ml3-ns link" href="wearepatterns.com/library.html"><span class="dn di-ns">3.</span> Library</a>
+        </p>
+    </header>
+    <main class="mh3 mh4-ns mh5-l mb5 mt5 mt5-ns mt6-l">
+        <h1 class="mb4-ns mb5-l pb4 pb4-ns pb5-l bb b--black-05 f3 f2-ns f1-l four fw5 lh-title measure-narrow garamond"><em id="nolig">Patterns</em> is the design practice of <em>Tyler N. Ford & Jordan Hayes</em>. To&shy;gether with our col&shy;laborators we create honest and com&shy;pel&shy;ling iden&shy;tities, web&shy;sites, and print materials.</h1>
+        <div class="mt4 measure cutive f5 f4-l lh-copy">
+            <p>Design won't save the world, but it will help you build trust and loy&shy;al&shy;ty through clar&shy;i&shy;ty, ac&shy;ces&shy;si&shy;bil&shy;ity, and honesty.</p>
+            <p class="pt3 pb3 bt bb b--black-05">Available for partnerships: <span class="date">June 1, 2016</span></p>
+            <p>t - @wearepatterns<br>
+            e - studio@wearepatterns.com<br>
+            p - 405-985-3777</p>
+            <!--<p class="f6">
+            <a class="db mr3-ns link" style="color: rgb(51, 63, 72);" href="http://www.twitter.com/wearepatterns">@wearepatterns</a> <span class="dn di-ns black-20">/</span>
+            <a class="db mh3-ns mt2 mt0-ns link" style="color: rgb(51, 63, 72);" href="mailto:studio@wearepatterns.com">studio@wearepatterns</a> <span class="dn di-ns black-20">/</span>
+            <a class="db ml3-ns mt2 mt0-ns link" style="color: rgb(51, 63, 72);" href="tel:405-985-3777">405-985-3777</a>
+        </p>-->
+        </div>
+    </main>
+</body>
+
+</html>
