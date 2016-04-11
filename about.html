@@ -9,6 +9,7 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <!-- CSS -->
     <link rel="stylesheet" href="tachyons.css">
+    <link rel="stylesheet" href="styles.css">
     <link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
 
     <script src="https://use.typekit.net/ezg8bsf.js"></script>
@@ -19,103 +20,6 @@
             });
         } catch (e) {}
     </script>
-
-    <style>
-        body {
-            color: rgb(51, 63, 72);
-            background-color: rgba(230, 238, 236, 0.7);
-            hyphens: manual;
-            -webkit-font-smoothing: antialiased;
-        }
-        
-        .cutive {
-            font-family: 'Cutive Mono', 'Courier New', monospace;
-        }
-        
-        .garamond {
-            font-family: 'garamond-premier-pro-display', Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-            font-feature-settings: "dlig";
-            font-variant-ligatures: discretionary-ligatures;
-        }
-        
-        @media screen and (min-width: 100em) {
-            .four {
-                font-size: 4rem;
-            }
-        }
-        
-        #nolig {
-            font-feature-settings: "dlig" 0;
-            font-variant-ligatures: none;
-        }
-        
-        a {
-            color:inherit;
-        }
-        .sc {
-            color: rgb(40, 87, 128);
-        }
-        
-        .hc:hover, .al {
-            color: rgb(72, 169, 197);
-        }
-        
-        .animated {
-            -webkit-animation-duration: 4s;
-            animation-duration: 4s;
-            -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
-        }
-        
-        @-webkit-keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-        
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-        
-        .fadeIn {
-            -webkit-animation-name: fadeIn;
-            animation-name: fadeIn;
-        }
-        
-        .dots {
-            position: relative;
-            display: inline-block;
-        }
-        
-        .dots:after {
-            content: '';
-            display: block;
-            position: absolute;
-            left: 0;
-            top: 80%;
-            height: 8%;
-            width: 100%;
-            /*background: hsla(226, 65%, 35%, 0.2);*/
-            background: url(../images/dots.svg) repeat;
-            background-size: 4px 4px;
-            text-decoration: none;
-        }
-        
-        @media screen and (min-width: 48em) {
-            .dots:after {
-                top: 90%;
-                height: 20%;
-            }
-        }
-    </style>
 </head>
 
 <body class="animated fadeIn">
