@@ -32,17 +32,21 @@ a {
 
 .sc {
   color: rgb(40, 87, 128);
+}
+
+.hc:hover,
+.al {
+    color: rgb(72, 169, 197);
+}
+
+.under {
+  color: rgb(40, 87, 128);
   color: transparent;
   text-shadow: 0 0 rgb(40, 87, 128), .05em 0 0 rgb(237, 243, 241), 0 0, -.05em 0 0 rgb(237, 243, 241);
   background: -webkit-linear-gradient(rgb(40, 87, 128), rgb(40, 87, 128)) center .9em no-repeat;
   background: linear-gradient(rgb(40, 87, 128), rgb(40, 87, 128)) center .9em no-repeat;
   /*  can precisely control size in relation to the text  */
   background-size: 100% 1px;
-}
-
-.hc:hover,
-.al {
-    color: rgb(72, 169, 197);
 }
 
 .animated {
