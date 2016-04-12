@@ -2,67 +2,57 @@ body {
     color: rgb(51, 63, 72);
     background-color: rgba(230, 238, 236, 0.7);
     -webkit-hyphens: manual;
-       -moz-hyphens: manual;
-        -ms-hyphens: manual;
-            hyphens: manual;
+    -moz-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
     -webkit-font-smoothing: antialiased;
 }
-
 .cutive {
     font-family: 'Cutive Mono', 'Courier New', monospace;
 }
-
 .garamond {
     font-family: 'garamond-premier-pro-display', Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
     -webkit-font-feature-settings: "dlig";
-            font-feature-settings: "dlig";
+    font-feature-settings: "dlig";
     -webkit-font-variant-ligatures: discretionary-ligatures;
-            font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
 }
-
 @media screen and (min-width: 100em) {
     .four {
         font-size: 3rem;
     }
 }
-
 #nolig {
     -webkit-font-feature-settings: "dlig" 0;
-            font-feature-settings: "dlig" 0;
+    font-feature-settings: "dlig" 0;
     -webkit-font-variant-ligatures: none;
-            font-variant-ligatures: none;
+    font-variant-ligatures: none;
 }
-
 a {
     color: inherit;
 }
-
 .sc {
-  color: rgb(40, 87, 128);
+    color: rgb(40, 87, 128);
 }
-
 .hc:hover,
 .al {
     color: rgb(72, 169, 197);
 }
-
 .under {
-  color: rgb(40, 87, 128);
-  color: transparent;
-  text-shadow: 0 0 rgb(40, 87, 128), .05em 0 0 rgb(237, 243, 241), 0 0, -.05em 0 0 rgb(237, 243, 241);
-  background: -webkit-linear-gradient(rgb(40, 87, 128), rgb(40, 87, 128)) center .9em no-repeat;
-  background: linear-gradient(rgb(40, 87, 128), rgb(40, 87, 128)) center .9em no-repeat;
-  /*  can precisely control size in relation to the text  */
-  background-size: 100% 1px;
+    color: rgb(40, 87, 128);
+    color: transparent;
+    text-shadow: 0 0 rgb(40, 87, 128), .05em 0 0 rgb(237, 243, 241), 0 0, -.05em 0 0 rgb(237, 243, 241);
+    background: -webkit-linear-gradient(rgb(40, 87, 128), rgb(40, 87, 128)) center .9em no-repeat;
+    background: linear-gradient(rgb(40, 87, 128), rgb(40, 87, 128)) center .9em no-repeat;
+    /*  can precisely control size in relation to the text  */
+    background-size: 100% 1px;
 }
-
 .animated {
     -webkit-animation-duration: 4s;
     animation-duration: 4s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-
 @-webkit-keyframes fadeIn {
     from {
         opacity: 0;
@@ -71,7 +61,6 @@ a {
         opacity: 1;
     }
 }
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -80,17 +69,14 @@ a {
         opacity: 1;
     }
 }
-
 .fadeIn {
     -webkit-animation-name: fadeIn;
     animation-name: fadeIn;
 }
-
 .dots {
     position: relative;
     display: inline-block;
 }
-
 .dots:after {
     content: '';
     display: block;
@@ -104,13 +90,12 @@ a {
     background-size: 4px 4px;
     text-decoration: none;
 }
-
 @media screen and (min-width: 48em) {
     .flex {
-        display:-webkit-box;
-        display:-webkit-flex;
-        display:-ms-flexbox;
-        display:flex;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         -webkit-flex-direction: row;
@@ -119,14 +104,17 @@ a {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-pack:justify;
-        -webkit-justify-content:space-between;
-        -ms-flex-pack:justify;
-        justify-content:space-between;
-}
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
     .mw45 {
-        max-width:45%;
-
+        max-width: 45%;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 0 45%;
+        -ms-flex: 1 0 45%;
+        flex: 1 0 45%;
     }
     .dots:after {
         top: 90%;
