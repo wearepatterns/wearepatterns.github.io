@@ -32,9 +32,17 @@ a {
 
 .sc {
     color: rgb(40, 87, 128);
-      text-shadow: 4px 4px 0 rgb(237, 243, 241), -1px 1px 0 rgb(237, 243, 241), 2px 0 0 rgb(237, 243, 241), -2px 0 0 rgb(237, 243, 241);
-
-    box-shadow: inset 0 -2px 0 0 rgb(237, 243, 241), inset 0 -3px 0 0 rgb(40, 87, 128);
+  color: transparent;
+  text-shadow: 0 0 #333, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
+  /*  gradient background allows us to use css only & re-position it  */
+  background: -webkit-linear-gradient(#999, #999) center 1.09em no-repeat;
+  background: linear-gradient(#999, #999) center 1.09em no-repeat;
+  /*  can precisely control size in relation to the text  */
+  background-size: 85% 1px;
+  /*  now the underline supports transitions  */
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
 }
 
 .hc:hover,
