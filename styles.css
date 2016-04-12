@@ -35,8 +35,8 @@ a {
     color:#333;
   color: transparent;
   text-shadow: 0 0 #333, .08em 0 0 #fff, 0 0, -.08em 0 0 #fff;
-  background: -webkit-linear-gradient(#999, #999) center .09em no-repeat;
-  background: linear-gradient(#999, #999) center .09em no-repeat;
+  background: -webkit-linear-gradient(#999, #999) center .9em no-repeat;
+  background: linear-gradient(#999, #999) center .9em no-repeat;
   /*  can precisely control size in relation to the text  */
   background-size: 100% 1px;
 }
