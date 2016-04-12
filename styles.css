@@ -1,7 +1,10 @@
 body {
     color: rgb(51, 63, 72);
     background-color: rgba(230, 238, 236, 0.7);
-    hyphens: manual;
+    -webkit-hyphens: manual;
+       -moz-hyphens: manual;
+        -ms-hyphens: manual;
+            hyphens: manual;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -11,8 +14,10 @@ body {
 
 .garamond {
     font-family: 'garamond-premier-pro-display', Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-    font-feature-settings: "dlig";
-    font-variant-ligatures: discretionary-ligatures;
+    -webkit-font-feature-settings: "dlig";
+            font-feature-settings: "dlig";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+            font-variant-ligatures: discretionary-ligatures;
 }
 
 @media screen and (min-width: 100em) {
@@ -22,8 +27,10 @@ body {
 }
 
 #nolig {
-    font-feature-settings: "dlig" 0;
-    font-variant-ligatures: none;
+    -webkit-font-feature-settings: "dlig" 0;
+            font-feature-settings: "dlig" 0;
+    -webkit-font-variant-ligatures: none;
+            font-variant-ligatures: none;
 }
 
 a {
@@ -119,7 +126,7 @@ a {
 }
     .mw45 {
         max-width:45%;
-        flex: 1 0 45%;
+
     }
     .dots:after {
         top: 90%;
