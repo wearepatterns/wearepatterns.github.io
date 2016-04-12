@@ -119,6 +119,7 @@ a {
 }
     .mw45 {
         max-width:45%;
+        flex: 1 0 auto;
     }
     .dots:after {
         top: 90%;
