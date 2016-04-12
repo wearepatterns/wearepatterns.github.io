@@ -89,6 +89,15 @@ a {
 }
 
 @media screen and (min-width: 48em) {
+    .flex {
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .mw45 {
+        max-width:45%;
+    }
     .dots:after {
         top: 90%;
         height: 20%;
