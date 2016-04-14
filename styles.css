@@ -5,7 +5,6 @@ body {
     -moz-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
-    -webkit-font-smoothing: antialiased;
 }
 .cutive {
     font-family: 'Courier New', Courier, monospace;
@@ -16,6 +15,7 @@ body {
     font-feature-settings: "dlig";
     -webkit-font-variant-ligatures: discretionary-ligatures;
     font-variant-ligatures: discretionary-ligatures;
+    -webkit-font-smoothing: antialiased;
 }
 @media screen and (min-width: 100em) {
     .four {
