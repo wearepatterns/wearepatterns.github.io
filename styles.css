@@ -6,6 +6,9 @@ body {
     -ms-hyphens: manual;
     hyphens: manual;
 }
+.bc {
+    color: rgba(51, 63, 72,.8)
+}
 .cutive {
     font-family: 'Courier New', Courier, monospace;
 }
