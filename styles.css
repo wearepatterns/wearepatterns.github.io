@@ -42,7 +42,8 @@ body {
     }
 }
 #kern {
-    -letter-kern: 100px 0 0 0 0 0 0 0;
+    -letter-kern: 3px 1px 0 0 4px
+    0 0 0;
 }
 .nolig {
     -webkit-font-feature-settings: "dlig" 0;
