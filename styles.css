@@ -14,8 +14,8 @@ body {
 }
 @font-face {
     font-family: 'Garamond Premier Pro';
-    src: url('Garamond Premier Pro - Display Medium.woff') format('woff'), /* Modern Browsers */
-    url('Garamond Premier Pro - Display Medium.ttf') format('truetype')/* Safari, Android, iOS */
+    src: url('Garamond Premier Pro - Display Mediumm.woff') format('woff'), /* Modern Browsers */
+    url('Garamond Premier Pro - Display Mediumm.ttf') format('truetype')/* Safari, Android, iOS */
     ;
     font-style: normal;
     font-weight: 500;
