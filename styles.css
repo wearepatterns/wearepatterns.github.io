@@ -41,7 +41,10 @@ body {
         font-size: 3.25rem;
     }
 }
-#nolig {
+.kern {
+    -letter-kern: 100px 0 0 0 0 0 0 0;
+}
+.nolig {
     -webkit-font-feature-settings: "dlig" 0;
     font-feature-settings: "dlig" 0;
     -webkit-font-variant-ligatures: none;
