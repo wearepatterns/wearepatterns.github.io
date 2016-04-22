@@ -41,7 +41,7 @@ body {
         font-size: 3.25rem;
     }
 }
-.kern {
+#kern {
     -letter-kern: 100px 0 0 0 0 0 0 0;
 }
 .nolig {
