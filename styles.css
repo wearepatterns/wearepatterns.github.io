@@ -1,6 +1,7 @@
 body {
     color: rgb(51, 63, 72);
     background-color: rgba(230, 238, 236, 0.7);
+    font-family: 'Courier New', Courier, monospace;
     -webkit-hyphens: manual;
     -moz-hyphens: manual;
     -ms-hyphens: manual;
@@ -8,9 +9,6 @@ body {
 }
 .bc {
     color: rgba(51, 63, 72,.8)
-}
-.cutive {
-    font-family: 'Courier New', Courier, monospace;
 }
 .garamond {
     font-family: 'garamond-premier-pro-display', Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
