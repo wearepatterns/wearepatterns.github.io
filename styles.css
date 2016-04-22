@@ -12,8 +12,24 @@ body {
 .bc {
     color: rgba(51, 63, 72,.8)
 }
+@font-face {
+    font-family: 'Garamond Premier Pro';
+    src: url('Garamond Premier Pro - Display Medium.woff') format('woff'), /* Modern Browsers */
+    url('Garamond Premier Pro - Display Medium.ttf') format('truetype')/* Safari, Android, iOS */
+    ;
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Garamond Premier Pro';
+    src: url('Garamond Premier Pro - Display Medium Italic.woff') format('woff'), /* Modern Browsers */
+    url('Garamond Premier Pro - Display Medium Italic.ttf') format('truetype')/* Safari, Android, iOS */
+    ;
+    font-style: italic;
+    font-weight: 500;
+}
 .garamond {
-    font-family: 'garamond-premier-pro-display', Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
+    font-family: 'Garamond Premier Pro', 'garamond-premier-pro-display', Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
     -webkit-font-feature-settings: "dlig";
     font-feature-settings: "dlig";
     -webkit-font-variant-ligatures: discretionary-ligatures;
