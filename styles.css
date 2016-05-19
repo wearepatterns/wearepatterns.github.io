@@ -2,7 +2,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 body {
     color: rgb(51, 63, 72);
-    background-color: rgba(230, 238, 236, 0.7);
+    background-color: rgb(240, 235, 227);/*rgba(230, 238, 236, 0.7);*/
     font-family: 'Courier New', Courier, monospace;
     -webkit-hyphens: manual;
     -moz-hyphens: manual;
