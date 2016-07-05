@@ -20,4 +20,5 @@ defaults:
     type: pages
   values:
     layout: layout
+url: wearepatterns.siteleaf.com
 permalink: pretty
