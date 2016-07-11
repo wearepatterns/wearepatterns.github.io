@@ -15,6 +15,13 @@
     {{page.content}}
 {{site.title}}
 {{ page.about.content }}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 <header class="mh3 mh4-ns mh5-l mt4 mt5-l">
         <p class="f6 lh-copy bc">
             Patterns -
