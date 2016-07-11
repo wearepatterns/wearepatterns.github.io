@@ -11,8 +11,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-  jaj:
-    title: jaj
+  beep:
+    title: beep
     output: true
 defaults:
 - scope:
