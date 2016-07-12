@@ -7,7 +7,6 @@ secondary: Design won't save the world but it will help you build trust and loyÂ
 availability: August 2016
 email: studio@wearepatterns.com
 phone: 405-985-3777
-active: "/"
 layout: home
 ---
 
