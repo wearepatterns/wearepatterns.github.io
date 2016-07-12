@@ -1,11 +1,15 @@
----
-layout: default
----
+--- layout: default ---
 
 <h1 class="f3 f2-ns f1-l four fw5 lh-title measure-narrow garamond ">{{ page.title }}</h1>
 <section class="mt4 mt4-l pt3 pt4-l f5 f4-l lh-copy bt b--black-10 bc mw9">
     <div class="flex mw8">
 
+        {% assign sorted_posts = (site.principles | sort: 'title') %}
+        {% for post in sorted_posts %}
+        <li class="cardmenu-item"><a href="{{ page.url }}">{{ post.title }}</a></li>
+        {% endfor %} 
+        
+        
         {% for post in site.principles %}
         <div class="mt0-ns mw45">
             <h2 class="f5 f4-l normal dots">{{ post.title }}</h2>
