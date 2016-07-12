@@ -8,7 +8,10 @@ layout: default
 
         {% assign sorted_posts = (site.principles | sort: 'title') %}
         {% for post in sorted_posts %}
-        <li class="cardmenu-item"><a href="{{ page.url }}">{{ post.title }}</a></li>
+        <div class="mt0-ns mw45">
+            <h2 class="f5 f4-l normal dots">{{ post.title }}</h2>
+            <p class="mt1 mt3-ns measure">{{ post.content }}</p>
+        </div>
         {% endfor %} 
         
         
