@@ -18,7 +18,13 @@
         <p class="f6 lh-copy bc">
             Patterns -
             <br>
-            {{ page.url }}
+            
+            {% if page.url == "/" %}
+            <a class="mr1 mr3-ns link al hc" href="/"><span class="dn di-ns ">1.</span> About</a>
+        {% else %}
+            <li><a href="/">Home</a></li>
+        {% endif %}
+        
             {% if page.active == "/" %}
             <a class="mr1 mr3-ns link al hc" href="/"><span class="dn di-ns ">1.</span> About</a>
         {% else %}
