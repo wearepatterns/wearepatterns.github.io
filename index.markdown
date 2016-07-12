@@ -8,7 +8,7 @@ availability: August 2016
 email: studio@wearepatterns.com
 phone: 405-985-3777
 active: "/"
-layout: default
+layout: home
 ---
 
 *Patterns* is the design practice of *Tyler N. Ford & Jordan Hayes*. To­gether with our col­laborators we create honest and com­pel­ling iden­tities, web­sites, and print materials.
