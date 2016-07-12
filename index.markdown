@@ -5,4 +5,4 @@ position: 0
 layout: default
 ---
 
-Patterns is the design practice of Tyler N. Ford and yer butt
+Patterns is the design practice of Tyler N. Ford and yer {{ site.title }} butt
