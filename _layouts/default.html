@@ -25,6 +25,12 @@
             <li><a href="/">Home</a></li>
         {% endif %}
             
+            {% if page.url == link.url %}
+            <a class="mr1 mr3-ns link al hc" href="/"><span class="dn di-ns ">1.</span> About</a>
+        {% else %}
+            <li><a href="/">Home</a></li>
+        {% endif %}
+
             
             <a class="mr1 mr3-ns link hc" href="/"><span class="dn di-ns ">1.</span> About</a> <span class="black-20 ">/</span>
             <a class="mh1 mh3-ns link hc" href="/principles "><span class="dn di-ns ">2.</span> Principles</a> <span class="black-20 ">/</span>
