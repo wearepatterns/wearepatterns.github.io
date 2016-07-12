@@ -2,9 +2,6 @@
 title: Patterns
 timezone: UTC
 collections:
-  home:
-    title: Home
-    output: true
   posts:
     title: Posts
     output: true
