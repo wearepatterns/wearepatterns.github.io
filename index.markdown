@@ -10,4 +10,4 @@ phone:
 layout: layout
 ---
 
-Patterns is the design practice of Tyler N. Ford and yer {{ site.title }} butt
+*Patterns* is the design practice of *Tyler N. Ford* and *Jordan Hayes*. To­gether with our col­laborators we create honest and com­pel­ling iden­tities, web­sites, and print materials.
