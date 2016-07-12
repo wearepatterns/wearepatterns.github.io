@@ -7,7 +7,7 @@ secondary: Design won't save the world but it will help you build trust and loyÂ
 availability: July 2016
 email: 
 phone: 
-layout: default
+layout: layout
 ---
 
 Patterns is the design practice of Tyler N. Ford and yer {{ site.title }} butt
