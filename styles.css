@@ -21,6 +21,12 @@ body {
     font-variant-ligatures: discretionary-ligatures;
     -webkit-font-smoothing: antialiased;
 }
+.garamond>em {
+    -webkit-font-feature-settings: "dlig" 0;
+    font-feature-settings: "dlig" 0;
+    -webkit-font-variant-ligatures: none;
+    font-variant-ligatures: none;
+}
 @media screen and (min-width: 100em) {
     .four {
         font-size: 3.25rem;
