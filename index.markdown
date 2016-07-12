@@ -4,9 +4,9 @@ date: 2016-06-07 23:56:00 Z
 position: 0
 secondary: Design won't save the world but it will help you build trust and loy­al­ty
   through clar­i­ty, ac­ces­si­bil­ity, and honesty.
-availability: July 2016
-email: 
-phone: beep-boop
+availability: August 2016
+email: studio@wearepatterns.com
+phone: 405
 layout: layout
 ---
 
