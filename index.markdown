@@ -8,10 +8,8 @@ availability: August 2016
 email: studio@wearepatterns.com
 phone: 405-985-3777
 subsection:
-- bloop
-- |
-  beep
-hmm: 
+  title: Get Started
+  thing: two
 layout: home
 ---
 
