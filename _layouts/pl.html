@@ -9,7 +9,7 @@ layout: default
         
         {% for principle in page.principles %}
         {{ principle.title }}
-        {% end for %}
+        {% endfor %}
 
         {% assign sorted_posts = (site.principles | sort: 'title') %}
         {% for post in sorted_posts %}
