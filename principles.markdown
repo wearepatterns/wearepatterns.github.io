@@ -9,7 +9,7 @@ principles:
 - title: 02. Accessibility
   body: Design for everyone. Never sacrifice speed or usibility for aesthetics.
 - title: 03. Bloop
-  body: 
+  body: BEEEEp
 layout: pl
 ---
 
