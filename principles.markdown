@@ -10,6 +10,6 @@ principles:
   body: Design for everyone. Never sacrifice speed or usibility for aesthetics.
 - title: 03. Bloop
   body: 
-layout: pl
+layout: default
 ---
 
