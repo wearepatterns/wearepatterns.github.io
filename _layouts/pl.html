@@ -8,7 +8,8 @@ layout: default
         {{ site.title }}
         
         {% for principle in page.principles %}
-        {{ principle.title }}
+        <h2></h2>{{ principle.title }}</h2>
+        <p>{{ principle.body }}</p>
         {% endfor %}
 
         {% assign sorted_posts = (site.principles | sort: 'title') %}
