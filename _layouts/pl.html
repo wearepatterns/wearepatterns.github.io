@@ -7,7 +7,11 @@ layout: default
     <div class="flex mw8">
         {{ principles.body }}
         {{ page.principles }}
-        {{ page.title }}
+        {{ site.title }}<br>
+        {{ #principles }}
+        {{ title }}
+        {{ body }}
+        {{ /principles }}
 
         {% assign sorted_posts = (site.principles | sort: 'title') %}
         {% for post in sorted_posts %}
