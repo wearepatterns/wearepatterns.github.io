@@ -6,7 +6,9 @@ entries:
 - author: Frank Chimero
   title: The Web's Grain
   url: http://www.frankchimero.com/writing/the-webs-grain/
-  excerpt: 
+  excerpt: I believe every material has a grain, including the web. But this assumption
+    flies in the face of our expectations for technology. Too often, the internet
+    is cast as a wide-open, infinitely malleable material.
   image: 
 layout: pl
 ---
