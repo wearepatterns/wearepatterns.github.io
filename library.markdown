@@ -8,6 +8,6 @@ entries:
   url: 
   excerpt: 
   image: 
-layout: default
+layout: pl
 ---
 
