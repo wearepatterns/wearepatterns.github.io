@@ -5,7 +5,7 @@ position: 3
 entries:
 - author: Frank Chimero
   title: The Web's Grain
-  url: 
+  url: http://www.frankchimero.com/writing/the-webs-grain/
   excerpt: 
   image: 
 layout: pl
