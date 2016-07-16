@@ -7,11 +7,11 @@ layout: default
     <div class="fc mw8">
         {% if page.url == "/library/" %}
             
-            if works
+            
         {% for entry in page.entries %}
         <div class="mt0-ns mb4 mw45">
             <h2 class="f5 f4-l normal">{{ entry.author }}</h2>
-            <p class="mt1 mt3-ns measure">{{ principle.body }}</p>
+            <p class="mt1 mt3-ns measure">{{ entry.title }}</p>
         </div>
         {% endfor %}
         {% endif %}
