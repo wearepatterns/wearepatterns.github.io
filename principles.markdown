@@ -8,8 +8,9 @@ principles:
     follow.
 - title: 02. Accessibility
   body: Design for everyone. Never sacrifice speed or usibility for aesthetics.
-- title: 03. Bloop
-  body: BEEEEp
+- title: 03. Collaboration
+  body: We include our clients in our process as much as possible. We ask questions.
+    We discuss and debate. Our best work happens when we do it together.
 layout: pl
 ---
 
