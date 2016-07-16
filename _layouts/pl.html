@@ -5,6 +5,15 @@ layout: default
 <h1 class="f3 f2-ns f1-l four fw5 lh-title measure-narrow garamond ">{{ page.title }}</h1>
 <section class="mt4 mt4-l pt3 pt4-l f5 f4-l lh-copy bt b--black-10 bc mw9">
     <div class="fc mw8">
+        {% if page.url == "/principles/" %}
+        {% for principle in page.principles %}
+        <div class="mt0-ns mb4 mw45">
+            <h2 class="f5 f4-l normal">{{ principle.title }}</h2>
+            <p class="mt1 mt3-ns measure">{{ principle.body }}</p>
+        </div>
+        {% endfor %}
+        {% endif %}
+        
         {% if page.url == "/library/" %}
         {% for entry in page.entries %}
         <div class="mt0-ns mb4 mw45">
@@ -13,13 +22,6 @@ layout: default
         </div>
         {% endfor %}
         {% endif %}
-        
-        {% for principle in page.principles %}
-        <div class="mt0-ns mb4 mw45">
-            <h2 class="f5 f4-l normal">{{ principle.title }}</h2>
-            <p class="mt1 mt3-ns measure">{{ principle.body }}</p>
-        </div>
-        {% endfor %}
         
         <!--
         {% for principle in page.principles %}
