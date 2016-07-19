@@ -6,8 +6,8 @@ layout: default
 <section class="mt4 mt4-l pt3 pt4-l f5 f4-l lh-copy bt b--black-10 bc mw9">
     <div class="fc mw8">
         {% if page.url == "/principles/" %}
-        {% for principle in page.principles %}
-        <div class="mt0-ns mb4 mw45">
+        {% for principle in page.principles limit:1 %}
+        <div class="mt0-ns mb5 mw45">
             <h2 class="f5 f4-l normal">{{ principle.title }}</h2>
             <p class="mt1 mt3-ns measure">{{ principle.body }}</p>
         </div>
@@ -31,21 +31,7 @@ layout: default
         {% endif %}
         
         <!--
-        {% for principle in page.principles %}
-        <div class="mt0-ns mw45">
-            <h2 class="f5 f4-l normal dots">{{ principle.title }}</h2>
-            <p class="mt1 mt3-ns measure">{{ principle.body }}</p>
-        </div>
-        {% endfor %}
-        --
 
-        <!--
-        {% for post in site.principles %}
-        <div class="mt0-ns mw45">
-            <h2 class="f5 f4-l normal dots">{{ post.title }}</h2>
-            <p class="mt1 mt3-ns measure">{{ post.content }}</p>
-        </div>
-        {% endfor %}
         <div class="mt0-ns mw45">
             <h2 class="f5 f4-l normal dots">1. Clarity</h2>
             <p class="mt1 mt3-ns measure">Good design starts with good writing. Communicate clearly and the rest will follow.</p>
