@@ -24,10 +24,10 @@ entries:
 - author: Frank Chimero
   title: What Screens Want 2013
   url: http://www.frankchimero.com/writing/what-screens-want/
-  excerpt: "*“A designer’s work is not only about how the things look, but also their
+  excerpt: "“A designer’s work is not only about how the things look, but also their
     behaviors in response to interaction, and the adjustments they make between their
     fixed states. In fact, designing the way elements adapt and morph in the in-between
-    moments is half of your work as a designer. You’re crafting the interstitials.”*"
+    moments is half of your work as a designer. You’re crafting the interstitials.”"
   image: 
 layout: pl
 ---
