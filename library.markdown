@@ -6,19 +6,19 @@ entries:
 - author: Frank Chimero
   title: The Web's Grain
   url: http://www.frankchimero.com/writing/the-webs-grain/
-  excerpt: I believe every material has a grain, including the web. But this assumption
+  excerpt: "*“I believe every material has a grain, including the web. But this assumption
     flies in the face of our expectations for technology. Too often, the internet
-    is cast as a wide-open, infinitely malleable material.
+    is cast as a wide-open, infinitely malleable material.”*"
   image: 
 - author: Boop
   title: Bloop
   url: 
-  excerpt: 
+  excerpt: This is an excerpt dawg.
   image: 
 - author: Bop
   title: ta Hop
   url: 
-  excerpt: 
+  excerpt: This is an excerpt dog.
   image: 
 layout: pl
 ---
