@@ -15,11 +15,20 @@ entries:
   url: http://www.google.com/search?q=Hayao%20Miyazaki%20-%20My%20Neighbor%20Totoro
   excerpt: 
   image: "/uploads/totoro.jpg"
-- author: Bop
-  title: ta Hop
-  url: 
-  excerpt: This is an excerpt dog.
-  image: "/uploads/Screen%20Shot%202016-07-11%20at%203.50.24%20PM.png"
+- author: The National
+  title: I Should Live in Salt 2013
+  url: http://www.google.com/search?q=The%20National%20-%20I%20Should%20Live%20in%20Salt
+  excerpt: "*“I should leave it alone but you're not right / I should live in salt
+    for leaving you behind”*"
+  image: 
+- author: Frank Chimero
+  title: What Screens Want 2013
+  url: http://www.frankchimero.com/writing/what-screens-want/
+  excerpt: "*“A designer’s work is not only about how the things look, but also their
+    behaviors in response to interaction, and the adjustments they make between their
+    fixed states. In fact, designing the way elements adapt and morph in the in-between
+    moments is half of your work as a designer. You’re crafting the interstitials.”*"
+  image: 
 layout: pl
 ---
 
