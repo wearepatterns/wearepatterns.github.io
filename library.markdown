@@ -10,6 +10,16 @@ entries:
     flies in the face of our expectations for technology. Too often, the internet
     is cast as a wide-open, infinitely malleable material.
   image: 
+- author: Boop
+  title: Bloop
+  url: 
+  excerpt: 
+  image: 
+- author: Bop
+  title: ta Hop
+  url: 
+  excerpt: 
+  image: 
 layout: pl
 ---
 
