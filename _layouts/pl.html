@@ -22,8 +22,9 @@ layout: default
              <p class="mt1 mt3-ns measure ">
                  {% if entry.image contains "/uploads/" %}
                  <img class="w-100 " src="{{ entry.image}}" alt=" {{ entry.alt }}">
-                 {% endif %}
+                 {% else %}
                  {{ entry.excerpt }}
+                 {% endif %}
             </p>
         </div>
         {% endfor %}
