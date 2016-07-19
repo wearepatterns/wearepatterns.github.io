@@ -20,7 +20,7 @@ layout: default
             <h2 class="f5 f4-l normal">{{ entry.author }} -<br>
              <a class="link sc hc pb4" href="{{ entry.url}} ">{{ entry.title }}</a></h2>
              <p class="mt1 mt3-ns measure ">
-                 {% if page.entries.entry.image contains "/uploads/" %}
+                 {% if entry.image contains "/uploads/" %}
                  <img class="w-100 " src="{{ entry.image}}" alt=" {{ entry.alt }}">
                  {% endif %}
                  {{ entry.excerpt }}
