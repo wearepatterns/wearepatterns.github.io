@@ -19,7 +19,7 @@ entries:
   title: ta Hop
   url: 
   excerpt: This is an excerpt dog.
-  image: 
+  image: "/uploads/Screen%20Shot%202016-07-11%20at%203.50.24%20PM.png"
 layout: pl
 ---
 
