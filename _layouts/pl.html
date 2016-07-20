@@ -15,6 +15,19 @@ layout: default
         {% endif %}
         
         {% if page.url == "/library/" %}
+        {% for entry in page.entries limit:1 %}
+        <div class="mt5 mt0-ns mb4-ns pb4-ns bb-ns b--black-10 mw45">
+            <h2 class="f5 f4-l normal">{{ entry.author }} -<br>
+             <a class="link sc hc pb4" href="{{ entry.url}} ">{{ entry.title }}</a></h2>
+             <p class="mt1 mt3-ns measure ">
+                 {% if entry.image contains "/uploads/" %}
+                 <img class="w-100 " src="{{ entry.image}}" alt=" {{ entry.alt }}">
+                 {% else %}
+                 {{ entry.excerpt }}
+                 {% endif %}
+            </p>
+        </div>
+        {% endfor %}
         {% for entry in page.entries offset:1 %}
         <div class="mt0-ns mb4-ns pb4-ns bb-ns b--black-10 mw45">
             <h2 class="f5 f4-l normal">{{ entry.author }} -<br>
