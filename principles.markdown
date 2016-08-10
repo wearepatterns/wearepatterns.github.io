@@ -11,15 +11,6 @@ principles:
 - title: 03. Collaboration
   body: We include our clients in our process as much as possible. We ask questions.
     We discuss and debate. Our best work happens when we do it together.
-- title: 04. My Butt
-  body: We include our clients in our process as much as possible. We ask questions.
-    We discuss and debate. Our best work happens when we do it together.
-- title: 05. Your Butt
-  body: We include our clients in our process as much as possible. We ask questions.
-    We discuss and debate. Our best work happens when we do it together.
-- title: 06. Our Butt
-  body: We include our clients in our process as much as possible. We ask questions.
-    We discuss and debate. Our best work happens when we do it together.
 layout: pl
 ---
 
