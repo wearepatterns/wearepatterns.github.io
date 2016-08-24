@@ -10,7 +10,7 @@ phone: 405-875-9748
 subsection:
   title: Get Started
   thing: two
-layout: home
+layout: homepage
 ---
 
 *Patterns* is the design practice of *Tyler N. Ford & Jordan Hayes*. To­gether with our col­laborators we create honest and com­pel­ling iden­tities, web­sites, and print materials.
