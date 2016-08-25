@@ -20,14 +20,17 @@
     </script>
 </head>
 
-<body class="whiiiite" style="color:#cb4414;font-family:'p22-underground';">
-    <main class="mh3 mh4-ns mh5-l mb5 mt5 mw9 ">
-        {{ content }}
+<body style="color:#cb4414;font-family:'p22-underground';">
+    <main class="mh3 mh4-ns mh5-l mb5 mt5 mw9">
+        <p class="fw3 mb6 f-subheadline">&times;</p>
+        <h1 class="animated fadeIn f3 f2-ns f1-l four fw4 lh-title measure-narrow "><!--&ctdot; &#8226;diamond &#9996;victory &#9759;down &#9997;writing w&#215; &#182;-->{{ content }}</h1>
+        <section class="mt4 mt5-l pt3 pt4-l f5 f4-l lh-copy bt b--black-10 white" style="background-color:#cb4414;">
+            <p class="pt3-l measure ">{{ page['secondary'] }}</p>
+            <p class="pt3 pb3 bt bb b--black-05 measure ">Available for partnerships: <span class="dots ">{{ page['availability'] }}</span></p>
+            e - <a class="link sc hc " href="mailto:{{ page['email'] }}">{{ page['email'] }}</a>
+            <br> p - <a class="link sc hc " href="tel:{{ page['phone'] }} ">{{ page['phone'] }}!</a>
+        </section>
     </main>
-    
-    <footer class="mh3 mh4-ns mh5-l mb4 mb4-l mt4 mt7-l bt b--black-10">
-    <p class="f6 lh-copy"><!--Made in Oklahoma <span class="dn di-ns">/</span><br class="dn-ns"> -->Built with <a class="link al" href="tachyons.io">Tachyons</a> / Powered by <a class="link al" href="siteleaf.net">Siteleaf</a></p>
-    </footer>
 </body>
 
 </html>
