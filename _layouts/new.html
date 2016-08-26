@@ -42,14 +42,14 @@
             <p>Stuff/thangs.</p>
             
             <form class="pb5 pb6-l mw6 f5" action="//formspree.io/tylernford@gmail.com" method="POST">
+                <fieldset class="b--white bb-0">
+                    <input class="bg-newred white pt3 w-100 bn" type="text" name="Name" placeholder="!Full Name*" validate-required>
+                </fieldset>
                 <fieldset class="b--white">
-                    <input class="bg-newred white pt3 w-100" type="text" name="Name" placeholder="!Full Name*" validate-required>
+                    <input class="bg-newred white pt3 w-100 bn" type="email" name="Email" placeholder="Email*" validate-required validate-email>
                 </fieldset>
-                <fieldset>
-                    <input class="pt3 w-100" type="email" name="Email" placeholder="Email*" validate-required validate-email>
-                </fieldset>
-                <fieldset>
-                    <textarea class="pt3 pb5 w-100" name="Message" placeholder="Message*" validate-required></textarea>
+                <fieldset class="b--white bt-0">
+                    <textarea class="bg-newred white pt3 pb5 w-100 bn" name="Message" placeholder="Message*" validate-required></textarea>
                 </fieldset>
                 <input type="submit" value="Submit &#8594;">
                 <input type="hidden" name="_next" value="../thanks.html" />
