@@ -10,10 +10,7 @@ secondary: Design won't save the world but it will help you build trust and loy�
 availability: Late August 2016
 email: studio@wearepatterns.com
 phone: 405-875-9748
-subsection:
-  title: Get Started
-  thing: two
 layout: new
 ---
 
-Patterns is the design practice of Tyler N. Ford & Jordan Hayes. To­gether with our col­laborators we create honest and com­pel­ling iden­tities, web­sites, and print materials.
+Designing is editing.
