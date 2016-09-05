@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Patterns | A Design Practice</title>
+    <link rel="canonical" href="http://wearepatterns.com">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="/tachyons.css">
+
+    <script src="https://use.typekit.net/ezg8bsf.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+
+    </script>
+    <style>
+        #email {
+            font-family: 'Input Mono', 'source-code-pro';
+        }
+        
+        #email:hover {
+            border-bottom: none;
+        }
+        
+        .input-mono {
+            font-family: 'Input Mono Self';
+        }
+        
+        input {
+            border-radius: 0;
+        }
+        
+        .shadow {
+            box-shadow: inset 0px 11px 8px -10px #DBDBDB, inset 0px -11px 8px -10px #DBDBDB;
+        }
+        
+        @font-face {
+            font-family: 'Input Mono Self';
+            src: url(/InputMono-Regular.ttf);
+        }
+
+    </style>
+</head>
+
+<body class="fw4 bg-red" style="font-family:'p22-underground';">
+    <header class="bg-white red ph3 ph4-ns ph5-l">
+        <img class="pt4 pt5-l mt0 mb4 mb5-l w2 w3-l" src="/hand.svg">
+        <h1 class="pb5 pb6-l mb0 f3 f2-ns f1-l lh-title measure-narrow normal">{{ page['description'] }}</h1>
+    </header>
+    <main class="mb3">
+        <section class="bg-near-white red ph3 ph4-ns ph5-l pb6 pb7-l f4 lh-copy btb b--btlack-10 shadow">
+            <h1 class="pt5 pt6-l pb4 mt0 f3 f2-ns f1-l normal lh-solid">Principles
+            <br>&mdash;</h1>
+            <div class="flex-ns flex-wrap-ns justify-between-ns fw3" style="max-width:80rem;">
+                <div class="mb5 measure-narrow-ns">
+                    <h2 class="f4 fw3 normal lh-solid">01. Clarity</h2>
+                    <p>Good design is good editing. Communicate clearly and the rest will follow</p>
+                </div>
+                <div class=" mb5 measure-narrow-ns">
+                    <h3 class="f4 normal lh-solid">02. Accessibility</h3>
+                    <p>Design for everyone. Never sacrifice speed or usibility for aesthetics.</p>
+                </div>
+                <div class="measure-narrow-ns">
+                    <h4 class="f4 normal lh-solid">03. Collaboration</h4>
+                    <p>We include our clients in our process as much as possible. We ask questions. We discuss and debate.</p>
+                </div>
+            </div>
+
+            <div class="flex-ns flex-wrap-ns justify-between-ns pt4 pt6-l mt4 mt6-l bt b--red fw3" style="max-width:80rem;">
+                <div class="ba measure-ns tc">
+                    <div class="flex justify-center w-100">
+                        <img class="pt4-ns w3 w4-l" src="/design.svg">
+                    </div>
+                    <!--<h2 class="mt4 f5 fw3 normal lh-title">Design</h2>-->
+                    <p class="mv4 ph4-ns">Magic Johnson cornrows scrolling text Marky Mark. I believe I can fly nylon windbreaker West Wing chillin’ troll dolls irure.</p>
+                </div>
+                <div class="ba measure-ns tc">
+                    <div class="flex justify-center w-100">
+                        <img class="pt4-ns w3 w4-l" src="/code.svg">
+                    </div>
+                    <!--<h2 class="mt4 f5 fw3 normal lh-title">Design</h2>-->
+                    <p class="mv4 ph4-ns">Magic Johnson cornrows scrolling text Marky Mark. I believe I can fly nylon windbreaker West Wing chillin’ troll dolls irure.</p>
+                </div>
+                <!--<div class="bg-white measure-ns tc">
+                    <div class="flex justify-center w-100">
+                        <img class="w3 w4-l" src="/code.svg">
+                    </div>
+                    <!--<h2 class="mt4 f5 fw3 normal lh-title">Code</h2>-->
+                    <!--<p class="mt5 input-mono">Magic Johnson cornrows scrolling text Marky Mark. I believe I can fly nylon windbreaker West Wing chillin’ troll dolls irure.</p>
+                </div>-->
+            </div>
+        </section>
+
+        <section class="bg-white red ph3 ph4-ns ph5-l pb6 pb7-l f4 lh-copy">
+            <h1 class="pt5 pt6-l pb0 pb4 mt0 f3 f2-ns f1-l normal lh-solid">Contact
+            <br>&mdash;</h1>
+            <div class="flex-ns justify-between-ns" style="max-width:80rem;">
+                <div class="w-40-ns">
+                    <p class="">Get in touch with a project inquiry or just to chat. We'd love to hear from you.</p>
+                    <p class="f5 fw4 lh-copy"><a class="link bb red" id="email" href="https:twitter.com/wearepatterns">@wearepatterns</a> &#8594;
+                        <br>
+                        <a class="link bb red f5 fw4" id="email" href="mailto:studio@wearepatterns.com">studio@wearepatterns.com</a> &#8594;</p>
+                </div>
+
+                <form class="pt3 w-40-ns f5 input-mono" action="//formspree.io/tylernford@gmail.com" method="POST">
+                    <fieldset class="bb-0 bw1 b--red">
+                        <input class="input-reset red pt3 w-100 bn" type="text" name="Name" placeholder="Full Name" validate-required>
+                    </fieldset>
+                    <fieldset class="bw1 b--red">
+                        <input class="red pt3 w-100 bn" type="email" name="Email" placeholder="Email" validate-required validate-email>
+                    </fieldset>
+                    <fieldset class="m0 p0 bt-0 bw1 b--red">
+                        <textarea class="red pt3 pb5 w-100 bn" style="resize: none;" name="Message" placeholder="Message" validate-required></textarea>
+                    </fieldset>
+                    <input style="margin-left:2px;" class="input-reset bg-transparent red ba bw1 b--red hover-bg-red hover-white pt3 ph3 pb3 mt2 tracked lh-solid pointer" type="submit" value="Send message &#8594;">
+                    <input type="hidden" name="_next" value="../thanks.html" />
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
